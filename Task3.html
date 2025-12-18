@@ -1,0 +1,313 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>College Timetable - CSE</title>
+    <style>
+      /* General Page Styles */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      /* Headers */
+      h1 {
+        font-size: 20px;
+        margin: 5px 0;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 5px 0;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+      }
+
+      h3 {
+        font-size: 12px;
+        margin: 5px 0;
+      }
+
+      p {
+        margin: 2px 0;
+        font-size: 10px;
+      }
+
+      /* Table Styling */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 11px;
+      }
+
+      /* Special Classes */
+      .txt-left {
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      .rotate-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        white-space: nowrap;
+        font-weight: bold;
+        width: 20px;
+      }
+
+      .row-bg {
+        background-color: #f2f2f2; /* added light gray just in case, looks better */
+        text-align: left;
+        font-weight: bold;
+      }
+
+      /* Footer table specific */
+      #footer-table td {
+        border: none;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sri Venkateswaraa College of Technology</h1>
+    <p>
+      R.H. Nagar, Vadakal, Oragadam Industrial Corridor, Sriperumbudur - 602
+      105.
+    </p>
+    <p>Approved by AICTE, New Delhi | Affiliated to Anna University, Chennai</p>
+    <p>(AN AUTONOMOUS INSTITUTION)</p>
+
+    <h2>Department of Computer Science and Engineering</h2>
+    <h3>III YEAR / VI SEM</h3>
+
+    <table cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>HOURS</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th rowspan="8" class="rotate-text">TEA BREAK</th>
+          <th>4</th>
+          <th>5</th>
+          <th rowspan="8" class="rotate-text">LUNCH</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+        </tr>
+        <tr>
+          <th>DAYS</th>
+          <td>8.30AM<br />-9.30 AM</td>
+          <td>9.30AM<br />-10.15AM</td>
+          <td>10.15AM<br />-11.00 AM</td>
+          <td>11.15AM<br />-12.00 PM</td>
+          <td>12.00PM<br />-12.45 PM</td>
+          <td>1.15PM<br />-2.00PM</td>
+          <td>2.00PM<br />-2.45PM</td>
+          <td>2.45PM<br />-3.30PM</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>MON</th>
+          <td>WT</td>
+          <td>DMF</td>
+          <td>OOSE</td>
+          <td>CS</td>
+          <td>EIOT</td>
+          <td>RES</td>
+          <td colspan="2">DMF LAB</td>
+        </tr>
+        <tr>
+          <th>TUES</th>
+          <td>CS</td>
+          <td>EIOT</td>
+          <td>OOSE</td>
+          <td colspan="2">CSM LAB</td>
+          <td>WT</td>
+          <td colspan="2">OOSE LAB</td>
+        </tr>
+        <tr>
+          <th>WED</th>
+          <td>DMF</td>
+          <td>EIOT</td>
+          <td>DMF</td>
+          <td colspan="2">CS LAB</td>
+          <td>RES</td>
+          <td colspan="2">WT LAB</td>
+        </tr>
+        <tr>
+          <th>THUR</th>
+          <td>EIOT</td>
+          <td>WT</td>
+          <td>CSM</td>
+          <td colspan="2">CODING SKILL</td>
+          <td>OOSE</td>
+          <td colspan="2">IOT LAB</td>
+        </tr>
+        <tr>
+          <th>FRI</th>
+          <td>CSM</td>
+          <td>CSM</td>
+          <td>RES</td>
+          <td>CS</td>
+          <td>DMF</td>
+          <td colspan="3">MINI PROJECT</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr class="row-bg">
+          <td colspan="5">Theory</td>
+        </tr>
+        <tr>
+          <th>S. NO.</th>
+          <th>SUBJECT CODE</th>
+          <th>SUBJECT NAME</th>
+          <th>STAFF NAME</th>
+          <th>NO. OF PERIODS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>CCS356</td>
+          <td class="txt-left">Object Oriented Software Engineering</td>
+          <td class="txt-left">Ms.J.Uma</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>CS3691</td>
+          <td class="txt-left">Embedded Systems and IoT</td>
+          <td class="txt-left">Ms.Mothiprabha</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>CCS375</td>
+          <td class="txt-left">Web Technologies</td>
+          <td class="txt-left">Mr.N.Jagadeesh</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>CCS336</td>
+          <td class="txt-left">Cloud Services Management</td>
+          <td class="txt-left">Mr.S.Shanmuganathan</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>CCS343</td>
+          <td class="txt-left">Digital and Mobile Forensics</td>
+          <td class="txt-left">Ms.R.Brindha Devi</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>CCS340</td>
+          <td class="txt-left">Cyber Security</td>
+          <td class="txt-left">Ms.K.S.Demel Abisha</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>OCE351</td>
+          <td class="txt-left">Renewable Energy System</td>
+          <td class="txt-left">Mr.V.Kumarasamy</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td></td>
+          <td class="txt-left">Mini Project</td>
+          <td class="txt-left">All Faculty</td>
+          <td>3</td>
+        </tr>
+
+        <tr class="row-bg">
+          <td colspan="5">Lab</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <td>CCS356</td>
+          <td class="txt-left">Object Oriented Software Engineering</td>
+          <td class="txt-left">Ms.J.Uma</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>CS3691</td>
+          <td class="txt-left">Embedded Systems and IoT</td>
+          <td class="txt-left">Ms.Mothiprabha</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>CCS375</td>
+          <td class="txt-left">Web Technologies</td>
+          <td class="txt-left">Mr.N.Jagadeesh</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>CCS336</td>
+          <td class="txt-left">Cloud Services Management</td>
+          <td class="txt-left">Mr.S.Shanmuganathan</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>CCS343</td>
+          <td class="txt-left">Digital and Mobile Forensics</td>
+          <td class="txt-left">Ms.R.Brindha Devi</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>CCS340</td>
+          <td class="txt-left">Cyber Security</td>
+          <td class="txt-left">Ms.K.S.Demel Abisha</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td></td>
+          <td class="txt-left">Coding Skill</td>
+          <td class="txt-left">CDS</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align: right; font-weight: bold">
+            TOTAL
+          </td>
+          <td>40</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="footer-table" style="margin-top: 50px">
+      <tr>
+        <td style="text-align: left">TIME TABLE INCHARGE</td>
+        <td style="text-align: center">HOD</td>
+        <td style="text-align: right">PRINCIPAL</td>
+      </tr>
+    </table>
+  </body>
+</html>
